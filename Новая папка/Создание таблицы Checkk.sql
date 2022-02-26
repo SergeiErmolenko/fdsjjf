@@ -1,0 +1,7 @@
+USE Vistavlenie_scheta
+CREATE TABLE Checkk(
+Num INT IDENTITY (1,1) PRIMARY KEY NOT NULL,
+SummaOplata MONEY NOT NULL,
+Valuta CHAR(20) NOT NULL,
+DateOplata SMALLDATETIME
+)
